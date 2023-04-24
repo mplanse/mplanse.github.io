@@ -1,0 +1,102 @@
+
+body {
+    background-color: #f0f5f5; 
+    color: #333; 
+    font-family: Arial, sans-serif; 
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #006699; 
+    color: #fff; 
+    padding: 20px; 
+  }
+  
+  /* Navegación */
+  nav {
+    background-color: #cceeff; 
+    padding: 10px; 
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block; 
+  }
+  
+  nav a {
+    display: block; 
+    padding: 10px; 
+    color: #333; 
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #99c2ff; 
+    color: #fff; 
+  }
+  
+  /* Sección principal */
+  main {
+    background-color: #fff; 
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #006699; 
+    color: #fff;
+    padding: 20px; 
+    text-align: center; 
+  }
+  .fotoinicio {
+    width: 250px;
+    height: 125px;
+    margin: 10px;
+  }
+
+  .textoproyecto{
+  
+      background-color: #f0f5f5; 
+      color: #000000; 
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    
+    
+  }
+
+  /* Estilos para el botón de descarga */
+a[href][download] {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #006699;
+  color: #fff;
+  border-radius: 5px;
+  align-items: center;
+}
+
+a[href][download]:hover {
+  background-color: #00aaff;
+  align-items: center;
+
+}
+
+a[href][download] button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  align-items: center;
+
+}
+
+a[href][download] button:hover {
+  text-decoration: underline;
+  align-items: center;
+
+}
