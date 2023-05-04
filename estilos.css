@@ -100,3 +100,50 @@ a[href][download] button:hover {
   align-items: center;
 
 }
+
+.bodycontacto {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.h1contacto {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.pcontacto {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.ulcontacto {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.licontacto {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.acontacto {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
