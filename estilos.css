@@ -70,7 +70,7 @@ body {
   }
 
   /* Estilos para el botón de descarga */
-a[href][download] {
+a[href] {
   display: inline-block;
   margin: 10px;
   padding: 10px;
